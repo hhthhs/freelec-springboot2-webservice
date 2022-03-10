@@ -32,4 +32,7 @@ dependencies {
     implementation('com.h2database:h2')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }   //7버전에서는 compile, testComplie 대신 implementataion, testImplementation을 사용
+
